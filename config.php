@@ -1,24 +1,22 @@
 <?php
 
-// SITE NAME
-
 if ( !defined('SITE_NAME') )
 {
-    define('SITE_NAME', "app-test");
+    define('SITE_NAME', "ellipsis-TEST");
 }
 
-// URL LOCATION (Don't forget "/" at the end !)
+// URL LOCATION 
 
 if ( !defined('BASE_URL') )
 {
-    define('BASE_URL', "http://localhost/app/");
+    define('BASE_URL', "http://159.223.101.2/html/");
 }
 
 // DATABASE CONFIGURATION
 
 if ( !defined('HOST_NAME') )
 {
-    define('HOST_NAME', "127.0.0.1:3306");
+    define('HOST_NAME', "http://159.223.101.2:3306");
 }
 
 if ( !defined('DB_NAME') )
@@ -33,7 +31,8 @@ if ( !defined('USER_NAME') )
 
 if ( !defined('USER_PASSWORD') )
 {
-    define('USER_PASSWORD', "");
+    define('USER_PASSWORD', "Tz@1234!");
 }
+
 
 
